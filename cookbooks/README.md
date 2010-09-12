@@ -12,6 +12,9 @@ Create new cookbooks in this directory with Knife.
 
     knife cookbook create COOKBOOK
 
+	knife cookbook create rvm -o ./
+
+
 This will create all the cookbook directory components. You don't need to use them all, and can delete the ones you don't need. It also creates a README file, metadata.rb and default recipe.
 
 You can also download cookbooks directly from the Opscode Cookbook Site. There are two subcommands to help with this depending on what your preference is.

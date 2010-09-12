@@ -1,0 +1,18 @@
+PATH="/Users/renaudkern/Developer/bin:/Users/renaudkern/Developer/sbin:$PATH"; export PATH
+MANPATH="/Users/renaudkern/Developer/share/man:$MANPATH"; export MANPATH
+CFLAGS="-I/Users/renaudkern/Developer/include"; export CFLAGS
+CPPFLAGS="-I/Users/renaudkern/Developer/include"; export CPPFLAGS
+CXXFLAGS="-I/Users/renaudkern/Developer/include"; export CXXFLAGS
+LDFLAGS="-L/Users/renaudkern/Developer/lib"; export LDFLAGS
+NODE_PATH="/Users/renaudkern/Developer/lib/node"; export NODE_PATH
+
+export CONFIGURE_ARGS="--with-cflags='$CFLAGS' --with-ldflags='$LDFLAGS'"
+
+export rvm_path=/Users/renaudkern/Developer/.rvm
+if [[ -s /Users/renaudkern/Developer/.rvm/scripts/rvm ]] ; then
+  source /Users/renaudkern/Developer/.rvm/scripts/rvm
+fi
+
+if [[ -f /Users/renaudkern/.renoke.profile.custom ]]; then
+  source ~/.cider.profile.custom
+fi

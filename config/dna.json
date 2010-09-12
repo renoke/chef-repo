@@ -1,0 +1,14 @@
+{ "rubies":[
+	"ruby-1.8.7-p302",
+	"ruby-1.9.2-p0"
+	],
+  "default_ruby_version":"1.8.7-p302",	
+  "zena_gemsets":[
+	"zena100", "zena016" ],
+  "default_zena_gemset":"zena100",
+  "recipes":[
+    "install_homebrew",
+    "dot_files",    
+    "rvm"
+  ]
+}
